@@ -43,7 +43,7 @@
 
 # What is your status page called?
 # Shows up in the browser bar and meta tags
-title: Eggsample Status
+title: Status — ZYROUGE
 
 # Should posts, which have a publish date
 # from the future, be built? Useful for
@@ -90,7 +90,7 @@ defaultContentLanguage: en
 # localhost should automatically work.
 #
 # Example: https://status.example.com/
-baseURL: https://cstate.mnts.lt
+baseURL: https://status.zyrouge.tech
 
 ############################################################
 # +------------------------------------------------------+ #
@@ -107,9 +107,11 @@ params:
   systems:
     - name: Gateway
     - name: API
-      description: The guts of the application.
-    - name: Media Proxy
-      description: This is the service responsible for serving images, audio, and video. It is reliant on our CDN.
+      description: Zyrouge API.
+    - name: Zyrouge Development (ZDev)
+      description: Official Zyrouge Development Page.
+    - name: Bots (Web)
+      description: ZDev Bots.
 
   # What date format to use?
   #
@@ -144,7 +146,7 @@ params:
   #
   # Recommended: png, bmp, jpg, or gif
   # for best browser support!
-  logo: /logo.png
+  logo: https://cdn.discordapp.com/icons/521008266336141314/64ecfff4fa8a3224ab1e93e73c96d026.jpg
 
   # This is the description that is shown
   # on the footer and meta tags.
